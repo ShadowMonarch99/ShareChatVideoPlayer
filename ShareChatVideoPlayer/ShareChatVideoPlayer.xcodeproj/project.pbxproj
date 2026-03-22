@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		0563CD792F6EBF5700092DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0563CD632F6EBF5500092DF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0563CD6A2F6EBF5500092DF2;
+			remoteInfo = ShareChatVideoPlayer;
+		};
+		0563CD832F6EBF5700092DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0563CD632F6EBF5500092DF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0563CD6A2F6EBF5500092DF2;
+			remoteInfo = ShareChatVideoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0563CD6B2F6EBF5500092DF2 /* ShareChatVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareChatVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0563CD782F6EBF5700092DF2 /* ShareChatVideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareChatVideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0563CD822F6EBF5700092DF2 /* ShareChatVideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareChatVideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0563CDB22F6FDC0A00092DF2 /* Exceptions for "ShareChatVideoPlayer" folder in "ShareChatVideoPlayer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0563CD6A2F6EBF5500092DF2 /* ShareChatVideoPlayer */;
+		};
+		0563CDB92F7001B600092DF2 /* Exceptions for "ShareChatVideoPlayer" folder in "ShareChatVideoPlayerTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				VideoAssets/Video1.mp4,
+				VideoAssets/Video2.mp4,
+				VideoAssets/Video3.mp4,
+			);
+			target = 0563CD772F6EBF5700092DF2 /* ShareChatVideoPlayerTests */;
+		};
+		0563CDBA2F7001B600092DF2 /* Exceptions for "ShareChatVideoPlayer" folder in "ShareChatVideoPlayerUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				VideoAssets/Video1.mp4,
+				VideoAssets/Video2.mp4,
+				VideoAssets/Video3.mp4,
+			);
+			target = 0563CD812F6EBF5700092DF2 /* ShareChatVideoPlayerUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0563CD6D2F6EBF5500092DF2 /* ShareChatVideoPlayer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0563CDB22F6FDC0A00092DF2 /* Exceptions for "ShareChatVideoPlayer" folder in "ShareChatVideoPlayer" target */,
+				0563CDB92F7001B600092DF2 /* Exceptions for "ShareChatVideoPlayer" folder in "ShareChatVideoPlayerTests" target */,
+				0563CDBA2F7001B600092DF2 /* Exceptions for "ShareChatVideoPlayer" folder in "ShareChatVideoPlayerUITests" target */,
+			);
+			path = ShareChatVideoPlayer;
+			sourceTree = "<group>";
+		};
+		0563CD7B2F6EBF5700092DF2 /* ShareChatVideoPlayerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShareChatVideoPlayerTests;
+			sourceTree = "<group>";
+		};
+		0563CD852F6EBF5700092DF2 /* ShareChatVideoPlayerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShareChatVideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0563CD682F6EBF5500092DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0563CD752F6EBF5700092DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0563CD7F2F6EBF5700092DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0563CD622F6EBF5500092DF2 = {
+			isa = PBXGroup;
+			children = (
+				0563CD6D2F6EBF5500092DF2 /* ShareChatVideoPlayer */,
+				0563CD7B2F6EBF5700092DF2 /* ShareChatVideoPlayerTests */,
+				0563CD852F6EBF5700092DF2 /* ShareChatVideoPlayerUITests */,
+				0563CD6C2F6EBF5500092DF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0563CD6C2F6EBF5500092DF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0563CD6B2F6EBF5500092DF2 /* ShareChatVideoPlayer.app */,
+				0563CD782F6EBF5700092DF2 /* ShareChatVideoPlayerTests.xctest */,
+				0563CD822F6EBF5700092DF2 /* ShareChatVideoPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0563CD6A2F6EBF5500092DF2 /* ShareChatVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0563CD8C2F6EBF5700092DF2 /* Build configuration list for PBXNativeTarget "ShareChatVideoPlayer" */;
+			buildPhases = (
+				0563CD672F6EBF5500092DF2 /* Sources */,
+				0563CD682F6EBF5500092DF2 /* Frameworks */,
+				0563CD692F6EBF5500092DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0563CD6D2F6EBF5500092DF2 /* ShareChatVideoPlayer */,
+			);
+			name = ShareChatVideoPlayer;
+			packageProductDependencies = (
+			);
+			productName = ShareChatVideoPlayer;
+			productReference = 0563CD6B2F6EBF5500092DF2 /* ShareChatVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0563CD772F6EBF5700092DF2 /* ShareChatVideoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0563CD8F2F6EBF5700092DF2 /* Build configuration list for PBXNativeTarget "ShareChatVideoPlayerTests" */;
+			buildPhases = (
+				0563CD742F6EBF5700092DF2 /* Sources */,
+				0563CD752F6EBF5700092DF2 /* Frameworks */,
+				0563CD762F6EBF5700092DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0563CD7A2F6EBF5700092DF2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0563CD7B2F6EBF5700092DF2 /* ShareChatVideoPlayerTests */,
+			);
+			name = ShareChatVideoPlayerTests;
+			packageProductDependencies = (
+			);
+			productName = ShareChatVideoPlayerTests;
+			productReference = 0563CD782F6EBF5700092DF2 /* ShareChatVideoPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0563CD812F6EBF5700092DF2 /* ShareChatVideoPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0563CD922F6EBF5700092DF2 /* Build configuration list for PBXNativeTarget "ShareChatVideoPlayerUITests" */;
+			buildPhases = (
+				0563CD7E2F6EBF5700092DF2 /* Sources */,
+				0563CD7F2F6EBF5700092DF2 /* Frameworks */,
+				0563CD802F6EBF5700092DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0563CD842F6EBF5700092DF2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0563CD852F6EBF5700092DF2 /* ShareChatVideoPlayerUITests */,
+			);
+			name = ShareChatVideoPlayerUITests;
+			packageProductDependencies = (
+			);
+			productName = ShareChatVideoPlayerUITests;
+			productReference = 0563CD822F6EBF5700092DF2 /* ShareChatVideoPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0563CD632F6EBF5500092DF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					0563CD6A2F6EBF5500092DF2 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					0563CD772F6EBF5700092DF2 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 0563CD6A2F6EBF5500092DF2;
+					};
+					0563CD812F6EBF5700092DF2 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 0563CD6A2F6EBF5500092DF2;
+					};
+				};
+			};
+			buildConfigurationList = 0563CD662F6EBF5500092DF2 /* Build configuration list for PBXProject "ShareChatVideoPlayer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0563CD622F6EBF5500092DF2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0563CD6C2F6EBF5500092DF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0563CD6A2F6EBF5500092DF2 /* ShareChatVideoPlayer */,
+				0563CD772F6EBF5700092DF2 /* ShareChatVideoPlayerTests */,
+				0563CD812F6EBF5700092DF2 /* ShareChatVideoPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0563CD692F6EBF5500092DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0563CD762F6EBF5700092DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0563CD802F6EBF5700092DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0563CD672F6EBF5500092DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0563CD742F6EBF5700092DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0563CD7E2F6EBF5700092DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0563CD7A2F6EBF5700092DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0563CD6A2F6EBF5500092DF2 /* ShareChatVideoPlayer */;
+			targetProxy = 0563CD792F6EBF5700092DF2 /* PBXContainerItemProxy */;
+		};
+		0563CD842F6EBF5700092DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0563CD6A2F6EBF5500092DF2 /* ShareChatVideoPlayer */;
+			targetProxy = 0563CD832F6EBF5700092DF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0563CD8A2F6EBF5700092DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = J2DHHGBWKV;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0563CD8B2F6EBF5700092DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J2DHHGBWKV;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0563CD8D2F6EBF5700092DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2DHHGBWKV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareChatVideoPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apoorv.ShareChatVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0563CD8E2F6EBF5700092DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2DHHGBWKV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareChatVideoPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apoorv.ShareChatVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0563CD902F6EBF5700092DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2DHHGBWKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apoorv.ShareChatVideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareChatVideoPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShareChatVideoPlayer";
+			};
+			name = Debug;
+		};
+		0563CD912F6EBF5700092DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2DHHGBWKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apoorv.ShareChatVideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareChatVideoPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShareChatVideoPlayer";
+			};
+			name = Release;
+		};
+		0563CD932F6EBF5700092DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2DHHGBWKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apoorv.ShareChatVideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShareChatVideoPlayer;
+			};
+			name = Debug;
+		};
+		0563CD942F6EBF5700092DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2DHHGBWKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apoorv.ShareChatVideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShareChatVideoPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0563CD662F6EBF5500092DF2 /* Build configuration list for PBXProject "ShareChatVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0563CD8A2F6EBF5700092DF2 /* Debug */,
+				0563CD8B2F6EBF5700092DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0563CD8C2F6EBF5700092DF2 /* Build configuration list for PBXNativeTarget "ShareChatVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0563CD8D2F6EBF5700092DF2 /* Debug */,
+				0563CD8E2F6EBF5700092DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0563CD8F2F6EBF5700092DF2 /* Build configuration list for PBXNativeTarget "ShareChatVideoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0563CD902F6EBF5700092DF2 /* Debug */,
+				0563CD912F6EBF5700092DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0563CD922F6EBF5700092DF2 /* Build configuration list for PBXNativeTarget "ShareChatVideoPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0563CD932F6EBF5700092DF2 /* Debug */,
+				0563CD942F6EBF5700092DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0563CD632F6EBF5500092DF2 /* Project object */;
+}
